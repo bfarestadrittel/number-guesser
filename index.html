@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Brandon's Number Guesser</title>
+		<link href="/users/bfarestadrittel/turing/mod1/number-guesser/style.css" type="text/css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,700" rel="stylesheet">
+	</head>
+	<body>
+		<header>
+			<h1><span id="numberH1">Number</span> <span id="guesserH1">Guesser</span></h1>
+		</header>
+		<main>
+			<section id="buttons">
+				<input id="enter-guess" type="number" min="1" max="100" placeholder="Enter your guess">
+				<input id="guess-button" type="submit" value="Guess" disabled>
+				<input id="clear-guess" type="reset" value="Clear" disabled>
+				</section>
+				<section id="guess-return">
+				<p id="guess-was">Your last guess was</p>
+				<p id="result">#</p>
+				<p id="guess-high"></p>
+				<input id="reset-game" type="submit" value="Reset">
+				<p id="set-range">Set your own range:</p>
+				<input id="set-min" type="number" placeholder="Min">
+				<input id="set-max" type="number" placeholder="Max">
+				<input id="submit-min-max" type="submit" value="Set Range">
+				</section>
+		</main>
+		<script src="./script.js"></script>
+	</body>
+	</html>

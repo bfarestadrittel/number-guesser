@@ -1,0 +1,134 @@
+body {
+	background-color: #fff;
+	font-family: 'open sans', sans-serif;
+}
+header {
+	background: #404041;
+	width: 100%;
+	height: 100px;
+	margin-top: -21px;
+}
+h1 {
+	text-align: center;
+	padding-top: 25px;
+	color: #fff;
+}
+span#numberH1 {
+	color: #ed458b;
+	font-size: 40px;
+}
+span#guesserH1 {
+	color: #e6e7e8;
+	font-weight: lighter;
+	font-size: 40px;
+}
+input[type=number] {
+	border: 1px solid #D0D2D3;
+	height: 50px;
+	width: 350px;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 5px;
+	font-family: inherit;
+	font-size: 20px;
+	display: block;
+}
+section#buttons {
+	display: block;
+	text-align: center;
+	padding-top: 20px;
+}
+input:focus {
+	outline: none;
+}
+input#guess-button {
+	font-family: inherit;
+	font-size: 18px;
+	color: #fff;
+	height: 40px;
+	width: 160px;
+	margin: 20px;
+	background-color: #929497;
+	border: 0px;
+	border-radius: 40px;
+}
+input#guess-button:hover {
+	background-color: #eb008b;
+}
+input#guess-button:disabled {
+	background-color: #d0d2d3;
+}
+input#clear-guess {
+	font-family: inherit;
+	font-size: 18px;
+	color: #fff;
+	height: 40px;
+	width: 160px;
+	margin: 20px;
+	background-color: #929497;
+	border: 0px;
+	border-radius: 40px;
+}
+#clear-guess:hover {
+	background-color: #eb008b;
+}
+#clear-guess:disabled {
+	background-color: #d0d2d3;
+}
+section#guess-return {
+	font-family: inherit;
+	text-align: center;
+	color: #404041;
+}
+input#reset-game {
+	font-family: inherit;
+	font-size: 18px;
+	color: #fff;
+	height: 40px;
+	width: 350px;
+	margin: 20px;
+	background-color: #929497;
+	border: 0px;
+	border-radius: 40px;
+}
+#reset-game:hover {
+	background-color: #eb008b;
+}
+#reset-game:disabled {
+	background-color: #D0D2D3;
+}
+p#guess-was {
+	font-size: 20px;
+	margin-bottom: 0px;
+}
+p#result {
+	font-size: 150px;
+	color: #eb008b;
+	margin: 0px;
+}
+p#guess-high {
+	font-size: 20px;
+	margin-top: 0px;
+}
+#set-min {
+	width: 100px;
+	display: inline-block;
+	margin-right: 10px;
+}
+#set-max {
+	width: 100px;
+	display: inline-block;
+	margin-left: 10px;
+}
+#submit-min-max {
+	font-family: inherit;
+	font-size: 18px;
+	color: #fff;
+	height: 40px;
+	width: 120px;
+	margin: 20px;
+	background-color: #929497;
+	border: 0px;
+	border-radius: 40px;
+}
